@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.penguicon.animation.views.DisplayView"
+            icon="icons/sample.gif"
+            id="org.penguicon.animation.display"
+            name="Animation Display"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.penguicon.animation.editors.AnimationEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            extensions="anim"
+            icon="icons/sample.gif"
+            id="org.penguicon.animation.editors.AnimationEditor"
+            name="Animation Editor"/>
+   </extension>
+
+</plugin>

@@ -1,0 +1,64 @@
+# Simple example - Stacking Blocks (no state changes)
+Frame: 1
+create org.eclipse.draw2d.RectangleFigure redBlock
+create org.eclipse.draw2d.RectangleFigure yellowBlock
+create org.eclipse.draw2d.RectangleFigure blueBlock
+setBackground redBlock ColorConstants.red
+setBackground yellowBlock ColorConstants.yellow
+setBackground blueBlock ColorConstants.blue
+setConstraint redBlock 10 110 50 50
+setConstraint yellowBlock 60 110 50 50
+setConstraint blueBlock 30 160 50 50
+# Move blue block off of red and yellow blocks
+Frame: 2
+setConstraint blueBlock 35 160 50 50
+Frame: 3
+setConstraint blueBlock 40 160 50 50
+Frame: 4
+setConstraint blueBlock 45 160 50 50
+Frame: 5
+setConstraint blueBlock 50 160 50 50
+Frame: 6
+setConstraint blueBlock 55 160 50 50
+Frame: 7
+setConstraint blueBlock 60 160 50 50
+Frame: 8
+setConstraint blueBlock 65 160 50 50
+Frame: 9
+setConstraint blueBlock 70 160 50 50
+Frame: 10
+setConstraint blueBlock 75 160 50 50
+Frame: 11
+setConstraint blueBlock 80 160 50 50
+Frame: 12
+setConstraint blueBlock 85 160 50 50
+Frame: 13
+setConstraint blueBlock 90 160 50 50
+Frame: 14
+setConstraint blueBlock 95 160 50 50
+Frame: 15
+setConstraint blueBlock 100 160 50 50
+Frame: 16
+setConstraint blueBlock 105 160 50 50
+Frame: 17
+setConstraint blueBlock 110 160 50 50
+Frame: 18
+setConstraint blueBlock 110 155 50 50
+Frame: 19
+setConstraint blueBlock 110 150 50 50
+Frame: 20
+setConstraint blueBlock 110 145 50 50
+Frame: 21
+setConstraint blueBlock 110 140 50 50
+Frame: 22
+setConstraint blueBlock 110 135 50 50
+Frame: 23
+setConstraint blueBlock 110 130 50 50
+Frame: 24
+setConstraint blueBlock 110 125 50 50
+Frame: 25
+setConstraint blueBlock 110 120 50 50
+Frame: 26
+setConstraint blueBlock 110 115 50 50
+Frame: 27
+setConstraint blueBlock 110 110 50 50
