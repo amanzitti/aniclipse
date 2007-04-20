@@ -63,7 +63,6 @@ public abstract class Command {
 	static class SetBackgroundCommand extends Command {
 		
 		protected static final String NAME = "setBackground";
-		
 		private Map<String,IFigure> figures;
 		private String line;
 		
@@ -129,6 +128,36 @@ public abstract class Command {
 	}
 	
 	/**
+	 * <code>FlipCommand</code> transitions to the next state in the
+	 * <code>FlipBook</code>.
+	 * @author Ann Marie Steichmann
+	 *
+	 */
+	static class FlipCommand extends Command {
+		
+		protected static final String NAME = "flip";
+		private Map<String,IFigure> figures;
+		private String line;
+		
+		protected FlipCommand( Map<String,IFigure> figures, String line ) {
+			this.figures = figures;
+			this.line = line;
+		}
+
+		/* (non-Javadoc)
+		 * @see org.penguicon.animation.Command#execute()
+		 */
+		public void execute() {
+			
+			String[] split = line.split( " " );
+			assert( split.length == 3 );
+			FlipBook flipBook = (FlipBook)figures.get( split[1] );
+			flipBook.flip( split[2] );
+		}
+		
+	}
+	
+	/**
 	 * Execute the command
 	 */
 	public abstract void execute();
@@ -150,6 +179,8 @@ public abstract class Command {
 			return new SetBackgroundCommand( figures, line );
 		} else if ( line.startsWith( SetConstraintCommand.NAME ) ) {
 			return new SetConstraintCommand( layout, figures, line );
+		} else if ( line.startsWith( FlipCommand.NAME ) ) {
+			return new FlipCommand( figures, line );
 		}
 		return null;
 	}

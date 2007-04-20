@@ -1,5 +1,11 @@
 package org.penguicon.animation;
 
+import java.net.URL;
+
+import org.eclipse.core.runtime.FileLocator;
+import org.eclipse.core.runtime.IPath;
+import org.eclipse.core.runtime.Path;
+import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
@@ -46,5 +52,15 @@ public class Activator extends AbstractUIPlugin {
 	public static Activator getDefault() {
 		return plugin;
 	}
+	
+    /**
+     * Returns the image descriptor with the given relative path.
+     */
+    public ImageDescriptor getImageDescriptor(String relativePath) {
+    	
+    	IPath path = new Path("icons/" + relativePath );
+    	URL url = FileLocator.find( plugin.getBundle(), path, null);
+    	return ImageDescriptor.createFromURL(url);
+    }
 
 }

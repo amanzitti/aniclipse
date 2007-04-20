@@ -31,6 +31,8 @@ public class FigureFactory {
 			return new Ellipse();
 		} else if ( type.equals( "org.eclipse.draw2d.Triangle" ) ) {
 			return new Triangle();
+		} else if ( type.equals( "org.penguicon.animation.FlipBook" ) ) {
+			return new FlipBook();
 		}
 		return null;
 	}

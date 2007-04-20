@@ -1,1 +1,37 @@
 # State changing example - Starship Battle For The Red Planet
+Frame: 0
+create org.penguicon.animation.FlipBook flipBook
+setConstraint flipBook 10 10 617 262
+flip flipBook starship/frame1.PNG
+Frame: 1
+flip flipBook starship/frame2.PNG
+Frame: 2
+flip flipBook starship/frame3.PNG
+Frame: 3
+flip flipBook starship/frame4.PNG
+Frame: 4
+flip flipBook starship/frame5.PNG
+Frame: 5
+flip flipBook starship/frame6.PNG
+Frame: 6
+flip flipBook starship/frame7.PNG
+Frame: 7
+flip flipBook starship/frame8.PNG
+Frame: 8
+flip flipBook starship/frame9.PNG
+Frame: 9
+flip flipBook starship/frame10.PNG
+Frame: 10
+flip flipBook starship/frame11.PNG
+Frame: 11
+flip flipBook starship/frame12.PNG
+Frame: 12
+flip flipBook starship/frame13.PNG
+Frame: 13
+flip flipBook starship/frame14.PNG
+Frame: 14
+flip flipBook starship/frame15.PNG
+Frame: 15
+flip flipBook starship/frame16.PNG
+Frame: 16
+flip flipBook starship/frame17.PNG
