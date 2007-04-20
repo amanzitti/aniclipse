@@ -163,14 +163,15 @@ public class Animator {
 							}
 						});
 						
+						if ( currentFrame++ == frames.size() - 1 ) break;
+						
 						try {
 							Thread.sleep( 1000 / fps );
 						} catch (InterruptedException e) {
 							
 						}
-						
 					}
-					if ( currentFrame++ == frames.size() - 1 ) break;
+					
 				}
 				terminate();
 				currentFrame = 0;				
