@@ -151,7 +151,9 @@ public class Animator {
 				while( !isTerminated() ) {
 					
 					if ( !isSuspended() ) {
-					
+						
+						long before = System.currentTimeMillis();
+						
 						Display.getDefault().syncExec( new Runnable() {
 							
 							public void run() {
@@ -163,12 +165,23 @@ public class Animator {
 							}
 						});
 						
+						long after = System.currentTimeMillis();
+						
 						if ( currentFrame++ == frames.size() - 1 ) break;
 						
+						// smooth out frame rate
+						int time = 1000 / fps;
+						int diff = (int)( after - before );
+						if ( time > diff ) {
+							time = time - diff;
+						} else {
+							time = 0;
+						}
+						
 						try {
-							Thread.sleep( 1000 / fps );
+							Thread.sleep( time );
 						} catch (InterruptedException e) {
-							
+							// ignore
 						}
 					}
 					
