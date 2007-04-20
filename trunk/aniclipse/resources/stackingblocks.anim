@@ -62,3 +62,123 @@ Frame: 25
 setConstraint blueBlock 110 105 50 50
 Frame: 26
 setConstraint blueBlock 110 110 50 50
+Frame: 27
+setConstraint yellowBlock 60 105 50 50
+Frame: 28
+setConstraint yellowBlock 60 100 50 50
+Frame: 29
+setConstraint yellowBlock 60 95 50 50
+Frame: 30
+setConstraint yellowBlock 60 90 50 50
+Frame: 31
+setConstraint yellowBlock 60 85 50 50
+Frame: 32
+setConstraint yellowBlock 60 80 50 50
+Frame: 33
+setConstraint yellowBlock 60 75 50 50
+Frame: 34
+setConstraint yellowBlock 60 70 50 50
+Frame: 35
+setConstraint yellowBlock 60 65 50 50
+Frame: 36
+setConstraint yellowBlock 60 60 50 50
+Frame: 37
+setConstraint yellowBlock 65 60 50 50
+Frame: 38
+setConstraint yellowBlock 70 60 50 50
+Frame: 39
+setConstraint yellowBlock 75 60 50 50
+Frame: 40
+setConstraint yellowBlock 80 60 50 50
+Frame: 41
+setConstraint yellowBlock 85 60 50 50
+Frame: 42
+setConstraint yellowBlock 90 60 50 50
+Frame: 43
+setConstraint yellowBlock 95 60 50 50
+Frame: 44
+setConstraint yellowBlock 100 60 50 50
+Frame: 45
+setConstraint yellowBlock 105 60 50 50
+Frame: 46
+setConstraint yellowBlock 110 60 50 50
+Frame: 47
+setConstraint redBlock 15 110 50 50
+Frame: 48
+setConstraint redBlock 20 110 50 50
+Frame: 49
+setConstraint redBlock 25 110 50 50
+Frame: 50
+setConstraint redBlock 30 110 50 50
+Frame: 51
+setConstraint redBlock 35 110 50 50
+Frame: 52
+setConstraint redBlock 40 110 50 50
+Frame: 53
+setConstraint redBlock 45 110 50 50
+Frame: 54
+setConstraint redBlock 50 110 50 50
+Frame: 55
+setConstraint redBlock 55 110 50 50
+Frame: 56
+setConstraint redBlock 60 110 50 50
+Frame: 57
+setConstraint redBlock 60 105 50 50
+Frame: 58
+setConstraint redBlock 60 100 50 50
+Frame: 59
+setConstraint redBlock 60 95 50 50
+Frame: 60
+setConstraint redBlock 60 90 50 50
+Frame: 61
+setConstraint redBlock 60 85 50 50
+Frame: 62
+setConstraint redBlock 60 80 50 50
+Frame: 63
+setConstraint redBlock 60 75 50 50
+Frame: 64
+setConstraint redBlock 60 70 50 50
+Frame: 65
+setConstraint redBlock 60 65 50 50
+Frame: 66
+setConstraint redBlock 60 60 50 50
+Frame: 67
+setConstraint redBlock 60 55 50 50
+Frame: 68
+setConstraint redBlock 60 50 50 50
+Frame: 69
+setConstraint redBlock 60 45 50 50
+Frame: 70
+setConstraint redBlock 60 40 50 50
+Frame: 71
+setConstraint redBlock 60 35 50 50
+Frame: 72
+setConstraint redBlock 60 30 50 50
+Frame: 73
+setConstraint redBlock 60 25 50 50
+Frame: 74
+setConstraint redBlock 60 20 50 50
+Frame: 75
+setConstraint redBlock 60 15 50 50
+Frame: 76
+setConstraint redBlock 60 10 50 50
+Frame: 77
+setConstraint redBlock 65 10 50 50
+Frame: 78
+setConstraint redBlock 70 10 50 50
+Frame: 79
+setConstraint redBlock 75 10 50 50
+Frame: 80
+setConstraint redBlock 80 10 50 50
+Frame: 81
+setConstraint redBlock 85 10 50 50
+Frame: 82
+setConstraint redBlock 90 10 50 50
+Frame: 83
+setConstraint redBlock 95 10 50 50
+Frame: 84
+setConstraint redBlock 100 10 50 50
+Frame: 85
+setConstraint redBlock 105 10 50 50
+Frame: 86
+setConstraint redBlock 110 10 50 50

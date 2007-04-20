@@ -265,7 +265,7 @@ public class DisplayView extends ViewPart implements AnimatorListener {
 	public void onFrameUpdated( int currentFrame ) {
 		
 		frameSlider.setSelection( currentFrame );
-		frameText.setText( Integer.toString( currentFrame++ ) );
+		frameText.setText( Integer.toString( currentFrame ) );
 		frameText.setSelection( frameText.getText().length() );
 	}	
 
