@@ -5,19 +5,13 @@
  */
 package org.penguicon.animation.views;
 
-import java.net.URL;
-
 import org.eclipse.core.resources.IFile;
-import org.eclipse.core.runtime.FileLocator;
-import org.eclipse.core.runtime.IPath;
-import org.eclipse.core.runtime.Path;
 import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.FigureCanvas;
 import org.eclipse.draw2d.LineBorder;
 import org.eclipse.draw2d.Panel;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IToolBarManager;
-import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.KeyAdapter;
 import org.eclipse.swt.events.KeyEvent;
@@ -150,16 +144,6 @@ public class DisplayView extends ViewPart implements AnimatorListener {
 		return null;
 	}
 	
-    /**
-     * Returns the image descriptor with the given relative path.
-     */
-    private ImageDescriptor getImageDescriptor(String relativePath) {
-    	
-    	IPath path = new Path("icons/" + relativePath );
-    	URL url = FileLocator.find( Activator.getDefault().getBundle(), path, null);
-    	return ImageDescriptor.createFromURL(url);
-    }
-	
 	private void createActions() {
 		
 		playAction = new Action("Play") {
@@ -179,10 +163,10 @@ public class DisplayView extends ViewPart implements AnimatorListener {
 			}
 		};
 		playAction.setEnabled( true );
-		playAction.setImageDescriptor( 
-				getImageDescriptor( "enabled/resume_co.gif" ) );
-		playAction.setDisabledImageDescriptor( 
-				getImageDescriptor( "disabled/resume_co.gif" ) );
+		playAction.setImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "enabled/resume_co.gif" ) );
+		playAction.setDisabledImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "disabled/resume_co.gif" ) );
 		
 		pauseAction = new Action("Pause") {
 			public void run() {
@@ -190,10 +174,10 @@ public class DisplayView extends ViewPart implements AnimatorListener {
 			}
 		};
 		pauseAction.setEnabled( false );
-		pauseAction.setImageDescriptor( 
-				getImageDescriptor( "enabled/suspend_co.gif" ) );
-		pauseAction.setDisabledImageDescriptor(
-				getImageDescriptor( "disabled/suspend_co.gif" ) );
+		pauseAction.setImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "enabled/suspend_co.gif" ) );
+		pauseAction.setDisabledImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "disabled/suspend_co.gif" ) );
 		
 		stopAction = new Action("Stop") {
 			public void run() {
@@ -201,10 +185,10 @@ public class DisplayView extends ViewPart implements AnimatorListener {
 			}
 		};
 		stopAction.setEnabled( false );
-		stopAction.setImageDescriptor(
-				getImageDescriptor( "enabled/terminate_co.gif" ) );
-		stopAction.setDisabledImageDescriptor(
-				getImageDescriptor( "disabled/terminate_co.gif" ) );
+		stopAction.setImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "enabled/terminate_co.gif" ) );
+		stopAction.setDisabledImageDescriptor( Activator.getDefault()
+				.getImageDescriptor( "disabled/terminate_co.gif" ) );
 	}
 
     private void createToolbar() {
