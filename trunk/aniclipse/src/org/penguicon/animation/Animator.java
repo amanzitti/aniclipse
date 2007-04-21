@@ -40,7 +40,7 @@ public class Animator {
 	private boolean isSuspended = false;
 	private boolean isTerminated = false;
 	
-	private int fps = 24;
+	private int fps = 15;
 	
 	private int currentFrame;
 	

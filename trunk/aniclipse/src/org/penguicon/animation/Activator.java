@@ -55,12 +55,13 @@ public class Activator extends AbstractUIPlugin {
 	
     /**
      * Returns the image descriptor with the given relative path.
+     * @param relativePath The relative path from the root plug-in directory
+     * to the image
      */
     public ImageDescriptor getImageDescriptor(String relativePath) {
     	
-    	IPath path = new Path("icons/" + relativePath );
-    	URL url = FileLocator.find( plugin.getBundle(), path, null);
-    	return ImageDescriptor.createFromURL(url);
+    	IPath path = new Path( "icons/" + relativePath );
+    	URL url = FileLocator.find( plugin.getBundle(), path, null );
+    	return ImageDescriptor.createFromURL( url );
     }
-
 }
