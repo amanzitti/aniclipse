@@ -1,4 +1,4 @@
-# State changing example - Tea Time
+# With sound example - Tea Time
 Frame: 0
 play C:/workspaces/animate-workspace/aniclipse/sounds/teatime/british_invasion_demo.mp3
 create org.penguicon.animation.FlipBook flipBook
@@ -51,4 +51,115 @@ flip flipBook teatime/frame22.jpg
 Frame: 23
 flip flipBook teatime/frame23.jpg
 Frame: 24
+flip flipBook teatime/frame24.jpg
+Frame: 25
+flip flipBook teatime/frame25.jpg
+Frame: 26
+flip flipBook teatime/frame26.jpg
+Frame: 27
+flip flipBook teatime/frame27.jpg
+Frame: 28
+flip flipBook teatime/frame28.jpg
+Frame: 29
+flip flipBook teatime/frame29.jpg
+Frame: 30
+flip flipBook teatime/frame30.jpg
+Frame: 31
+flip flipBook teatime/frame31.jpg
+Frame: 32
+flip flipBook teatime/frame32.jpg
+Frame: 33
+flip flipBook teatime/frame33.jpg
+Frame: 34
+flip flipBook teatime/frame34.jpg
+Frame: 35
+flip flipBook teatime/frame35.jpg
+Frame: 36
+flip flipBook teatime/frame36.jpg
+Frame: 37
+flip flipBook teatime/frame37.jpg
+Frame: 38
+flip flipBook teatime/frame38.jpg
+Frame: 39
+flip flipBook teatime/frame39.jpg
+Frame: 40
+flip flipBook teatime/frame40.jpg
+Frame: 41
+flip flipBook teatime/frame41.jpg
+Frame: 42
+flip flipBook teatime/frame42.jpg
+Frame: 43
+flip flipBook teatime/frame43.jpg
+Frame: 44
+flip flipBook teatime/frame44.jpg
+Frame: 45
+flip flipBook teatime/frame45.jpg
+Frame: 46
+flip flipBook teatime/frame46.jpg
+Frame: 47
+flip flipBook teatime/frame47.jpg
+Frame: 48
+flip flipBook teatime/frame48.jpg
+Frame: 49
+flip flipBook teatime/frame49.jpg
+Frame: 50
+flip flipBook teatime/frame50.jpg
+Frame: 51
+flip flipBook teatime/frame51.jpg
+Frame: 52
+flip flipBook teatime/frame52.jpg
+Frame: 53
+Frame: 54
+Frame: 55
+Frame: 56
+Frame: 57
+Frame: 58
+Frame: 59
+Frame: 60
+Frame: 61
+Frame: 62
+Frame: 63
+Frame: 64
+Frame: 65
+Frame: 66
+Frame: 67
+Frame: 68
+Frame: 69
+flip flipBook teatime/credits.jpg
+Frame: 70
+Frame: 71
+Frame: 72
+Frame: 73
+Frame: 74
+Frame: 75
+Frame: 76
+Frame: 77
+Frame: 78
+Frame: 79
+Frame: 80
+Frame: 81
+Frame: 82
+Frame: 83
+Frame: 84
+Frame: 85
+Frame: 86
+Frame: 87
+Frame: 88
+Frame: 89
+Frame: 90
+Frame: 91
+Frame: 92
+Frame: 93
+Frame: 94
+Frame: 95
+Frame: 96
+Frame: 97
+Frame: 98
+Frame: 99
+Frame: 100
+Frame: 101
+Frame: 102
+Frame: 103
+Frame: 104
+Frame: 105
 stop C:/workspaces/animate-workspace/aniclipse/sounds/teatime/british_invasion_demo.mp3
