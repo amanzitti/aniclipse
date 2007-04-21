@@ -1,0 +1,54 @@
+# State changing example - Tea Time
+Frame: 0
+play C:/workspaces/animate-workspace/aniclipse/sounds/teatime/british_invasion_demo.mp3
+create org.penguicon.animation.FlipBook flipBook
+setConstraint flipBook 10 10 308 231
+flip flipBook teatime/frame0.jpg
+Frame: 1
+flip flipBook teatime/frame1.jpg
+Frame: 2
+flip flipBook teatime/frame2.jpg
+Frame: 3
+flip flipBook teatime/frame3.jpg
+Frame: 4
+flip flipBook teatime/frame4.jpg
+Frame: 5
+flip flipBook teatime/frame5.jpg
+Frame: 6
+flip flipBook teatime/frame6.jpg
+Frame: 7
+flip flipBook teatime/frame7.jpg
+Frame: 8
+flip flipBook teatime/frame8.jpg
+Frame: 9
+flip flipBook teatime/frame9.jpg
+Frame: 10
+flip flipBook teatime/frame10.jpg
+Frame: 11
+flip flipBook teatime/frame11.jpg
+Frame: 12
+flip flipBook teatime/frame12.jpg
+Frame: 13
+flip flipBook teatime/frame13.jpg
+Frame: 14
+flip flipBook teatime/frame14.jpg
+Frame: 15
+flip flipBook teatime/frame15.jpg
+Frame: 16
+flip flipBook teatime/frame16.jpg
+Frame: 17
+flip flipBook teatime/frame17.jpg
+Frame: 18
+flip flipBook teatime/frame18.jpg
+Frame: 19
+flip flipBook teatime/frame19.jpg
+Frame: 20
+flip flipBook teatime/frame20.jpg
+Frame: 21
+flip flipBook teatime/frame21.jpg
+Frame: 22
+flip flipBook teatime/frame22.jpg
+Frame: 23
+flip flipBook teatime/frame23.jpg
+Frame: 24
+stop C:/workspaces/animate-workspace/aniclipse/sounds/teatime/british_invasion_demo.mp3

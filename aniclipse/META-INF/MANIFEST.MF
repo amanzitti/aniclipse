@@ -15,4 +15,9 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.editors,
  org.eclipse.ui.workbench.texteditor
 Eclipse-LazyStart: true
-Bundle-ClassPath: stackingblocks.jar
+Bundle-ClassPath: stackingblocks.jar,
+ lib/customizer.jar,
+ lib/jmf.jar,
+ lib/mediaplayer.jar,
+ lib/multiplayer.jar,
+ lib/sound.jar
