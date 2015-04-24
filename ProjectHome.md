@@ -1,0 +1,1 @@
+Tool for easily creating animations that can be played back within the Eclipse environment.
